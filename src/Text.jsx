@@ -34,7 +34,7 @@ const TextToSpeech = () => {
       <h1 className="text-2xl font-bold mb-4">Text to Speech (Google Hindi Voice)</h1>
 
       <textarea
-        className="border rounded p-2 w-full"
+        className="border rounded p-4 w-full min-h-[200px] resize-y" // Increased padding, full width, min height for bigger size and vertical resize
         rows="4"
         placeholder="Enter text here..."
         value={text}
